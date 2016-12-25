@@ -1,0 +1,45 @@
+<form>
+  <hr>
+  <table>
+    <tr>
+      <td>
+    <label><strong>Title        :</strong></label>
+  </td>
+  <td> <input type="text" ng-model="formData.title" placeholder="title" required />
+  </td>
+</tr>
+<tr>
+  <td>
+    <label><strong>Author       :</strong></label>
+  </td>
+  <td>
+    <input type="text" ng-model="formData.author" placeholder="author" required/>
+  </td>
+  <tr>
+    <td>
+    <label><strong>Pages        : </strong></label>
+  </td>
+  <td>
+  <input type="text" ng-model="formData.pages" placeholder="pages" required/>
+</td>
+</tr>
+<tr>
+  <td>
+    <label><strong>Availability :</strong></label>
+  </td>
+  <td>
+    <input type="text" ng-model="formData.avalability" placeholder="true" required/>
+  </td>
+</tr>
+<tr>
+  <td>
+    <label><strong>Type         :</strong></label>
+  </td>
+  <td>
+    <input type="text" ng-model="formData.type" placeholder="russian" required/>
+  </td>
+</tr>
+</table>
+<hr>
+      <button type="submit"  ng-click="submit()">Submit</button>
+</form>
